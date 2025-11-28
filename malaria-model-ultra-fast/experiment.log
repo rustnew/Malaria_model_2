@@ -1,0 +1,108 @@
+2025-11-28T21:33:59.016159Z  INFO burn_train::learner::train_val: Fitting the model:
+ MalariaCNN {
+  conv1: Conv2d {ch_in: 3, ch_out: 16, stride: [1, 1], kernel_size: [3, 3], dilation: [1, 1], groups: 1, padding: Same, params: 448}
+  bn1: BatchNorm {num_features: 16, momentum: 0.1, epsilon: 0.00001, params: 64}
+  pool1: MaxPool2d {kernel_size: [2, 2], stride: [2, 2], padding: Valid, dilation: [1, 1]}
+  conv2: Conv2d {ch_in: 16, ch_out: 32, stride: [1, 1], kernel_size: [3, 3], dilation: [1, 1], groups: 1, padding: Same, params: 4640}
+  bn2: BatchNorm {num_features: 32, momentum: 0.1, epsilon: 0.00001, params: 128}
+  pool2: MaxPool2d {kernel_size: [2, 2], stride: [2, 2], padding: Valid, dilation: [1, 1]}
+  adaptive_pool: AdaptiveAvgPool2d {output_size: [4, 4]}
+  dropout: Dropout {prob: 0.2}
+  fc1: Linear {d_input: 512, d_output: 128, bias: true, params: 65664}
+  fc2: Linear {d_input: 128, d_output: 2, bias: true, params: 258}
+  relu: Relu
+  params: 71202
+}
+2025-11-28T21:33:59.017246Z  INFO burn_train::learner::strategies::single::epoch: Executing training step for epoch 1
+2025-11-28T21:33:59.108373Z  INFO burn_train::learner::strategies::single::epoch: Iteration 1
+2025-11-28T21:34:05.662395Z  INFO burn_train::learner::strategies::single::epoch: Iteration 2
+2025-11-28T21:34:12.209637Z  INFO burn_train::learner::strategies::single::epoch: Iteration 3
+2025-11-28T21:34:18.892478Z  INFO burn_train::learner::strategies::single::epoch: Iteration 4
+2025-11-28T21:34:26.136123Z  INFO burn_train::learner::strategies::single::epoch: Iteration 5
+2025-11-28T21:34:32.747546Z  INFO burn_train::learner::strategies::single::epoch: Iteration 6
+2025-11-28T21:34:39.250775Z  INFO burn_train::learner::strategies::single::epoch: Iteration 7
+2025-11-28T21:34:45.949772Z  INFO burn_train::learner::strategies::single::epoch: Iteration 8
+2025-11-28T21:34:52.701580Z  INFO burn_train::learner::strategies::single::epoch: Iteration 9
+2025-11-28T21:34:59.242378Z  INFO burn_train::learner::strategies::single::epoch: Iteration 10
+2025-11-28T21:35:06.221509Z  INFO burn_train::learner::strategies::single::epoch: Iteration 11
+2025-11-28T21:35:13.215917Z  INFO burn_train::learner::strategies::single::epoch: Iteration 12
+2025-11-28T21:35:19.413681Z  INFO burn_train::learner::strategies::single::epoch: Iteration 13
+2025-11-28T21:35:25.508644Z  INFO burn_train::learner::strategies::single::epoch: Iteration 14
+2025-11-28T21:35:31.674075Z  INFO burn_train::learner::strategies::single::epoch: Iteration 15
+2025-11-28T21:35:37.561089Z  INFO burn_train::learner::strategies::single::epoch: Iteration 16
+2025-11-28T21:35:43.387954Z  INFO burn_train::learner::strategies::single::epoch: Iteration 17
+2025-11-28T21:35:49.337431Z  INFO burn_train::learner::strategies::single::epoch: Iteration 18
+2025-11-28T21:35:56.712106Z  INFO burn_train::learner::strategies::single::epoch: Iteration 19
+2025-11-28T21:36:02.669601Z  INFO burn_train::learner::strategies::single::epoch: Iteration 20
+2025-11-28T21:36:08.829742Z  INFO burn_train::learner::strategies::single::epoch: Iteration 21
+2025-11-28T21:36:15.006781Z  INFO burn_train::learner::strategies::single::epoch: Iteration 22
+2025-11-28T21:36:21.288268Z  INFO burn_train::learner::strategies::single::epoch: Iteration 23
+2025-11-28T21:36:27.891797Z  INFO burn_train::learner::strategies::single::epoch: Iteration 24
+2025-11-28T21:36:34.601561Z  INFO burn_train::learner::strategies::single::epoch: Iteration 25
+2025-11-28T21:36:40.656300Z  INFO burn_train::learner::strategies::single::epoch: Iteration 26
+2025-11-28T21:36:46.763991Z  INFO burn_train::learner::strategies::single::epoch: Iteration 27
+2025-11-28T21:36:52.448373Z  INFO burn_train::learner::strategies::single::epoch: Iteration 28
+2025-11-28T21:36:58.155254Z  INFO burn_train::learner::strategies::single::epoch: Iteration 29
+2025-11-28T21:37:03.934089Z  INFO burn_train::learner::strategies::single::epoch: Iteration 30
+2025-11-28T21:37:09.823069Z  INFO burn_train::learner::strategies::single::epoch: Iteration 31
+2025-11-28T21:37:16.569169Z  INFO burn_train::learner::strategies::single::epoch: Iteration 32
+2025-11-28T21:37:23.980986Z  INFO burn_train::learner::strategies::single::epoch: Iteration 33
+2025-11-28T21:37:31.880141Z  INFO burn_train::learner::strategies::single::epoch: Iteration 34
+2025-11-28T21:37:39.563014Z  INFO burn_train::learner::strategies::single::epoch: Iteration 35
+2025-11-28T21:37:46.212979Z  INFO burn_train::learner::strategies::single::epoch: Iteration 36
+2025-11-28T21:37:53.243804Z  INFO burn_train::learner::strategies::single::epoch: Iteration 37
+2025-11-28T21:38:00.097809Z  INFO burn_train::learner::strategies::single::epoch: Iteration 38
+2025-11-28T21:38:07.708825Z  INFO burn_train::learner::strategies::single::epoch: Iteration 39
+2025-11-28T21:38:13.796787Z  INFO burn_train::learner::strategies::single::epoch: Iteration 40
+2025-11-28T21:38:20.119297Z  INFO burn_train::learner::strategies::single::epoch: Iteration 41
+2025-11-28T21:38:26.344864Z  INFO burn_train::learner::strategies::single::epoch: Iteration 42
+2025-11-28T21:38:32.568248Z  INFO burn_train::learner::strategies::single::epoch: Iteration 43
+2025-11-28T21:38:40.240082Z  INFO burn_train::learner::strategies::single::epoch: Iteration 44
+2025-11-28T21:38:50.253714Z  INFO burn_train::learner::strategies::single::epoch: Iteration 45
+2025-11-28T21:39:01.089604Z  INFO burn_train::learner::strategies::single::epoch: Iteration 46
+2025-11-28T21:39:11.902884Z  INFO burn_train::learner::strategies::single::epoch: Iteration 47
+2025-11-28T21:39:22.383230Z  INFO burn_train::learner::strategies::single::epoch: Iteration 48
+2025-11-28T21:39:32.245100Z  INFO burn_train::learner::strategies::single::epoch: Iteration 49
+2025-11-28T21:39:41.441704Z  INFO burn_train::learner::strategies::single::epoch: Iteration 50
+2025-11-28T21:39:50.602667Z  INFO burn_train::learner::strategies::single::epoch: Iteration 51
+2025-11-28T21:39:58.631315Z  INFO burn_train::learner::strategies::single::epoch: Iteration 52
+2025-11-28T21:40:06.195712Z  INFO burn_train::learner::strategies::single::epoch: Iteration 53
+2025-11-28T21:40:13.899097Z  INFO burn_train::learner::strategies::single::epoch: Iteration 54
+2025-11-28T21:40:21.576343Z  INFO burn_train::learner::strategies::single::epoch: Iteration 55
+2025-11-28T21:40:28.965172Z  INFO burn_train::learner::strategies::single::epoch: Iteration 56
+2025-11-28T21:40:36.639337Z  INFO burn_train::learner::strategies::single::epoch: Iteration 57
+2025-11-28T21:40:44.207328Z  INFO burn_train::learner::strategies::single::epoch: Iteration 58
+2025-11-28T21:40:51.505040Z  INFO burn_train::learner::strategies::single::epoch: Iteration 59
+2025-11-28T21:40:59.531545Z  INFO burn_train::learner::strategies::single::epoch: Iteration 60
+2025-11-28T21:41:07.182814Z  INFO burn_train::learner::strategies::single::epoch: Iteration 61
+2025-11-28T21:41:15.472298Z  INFO burn_train::learner::strategies::single::epoch: Iteration 62
+2025-11-28T21:41:24.252665Z  INFO burn_train::learner::strategies::single::epoch: Iteration 63
+2025-11-28T21:41:33.924339Z  INFO burn_train::learner::strategies::single::epoch: Iteration 64
+2025-11-28T21:41:41.794616Z  INFO burn_train::learner::strategies::single::epoch: Iteration 65
+2025-11-28T21:41:50.345061Z  INFO burn_train::learner::strategies::single::epoch: Iteration 66
+2025-11-28T21:41:57.701435Z  INFO burn_train::learner::strategies::single::epoch: Iteration 67
+2025-11-28T21:42:04.475716Z  INFO burn_train::learner::strategies::single::epoch: Iteration 68
+2025-11-28T21:42:10.911153Z  INFO burn_train::learner::strategies::single::epoch: Iteration 69
+2025-11-28T21:42:16.792487Z  INFO burn_train::learner::strategies::single::epoch: Iteration 70
+2025-11-28T21:42:22.715436Z  INFO burn_train::learner::strategies::single::epoch: Iteration 71
+2025-11-28T21:42:30.380034Z  INFO burn_train::learner::strategies::single::epoch: Iteration 72
+2025-11-28T21:42:36.207813Z  INFO burn_train::learner::strategies::single::epoch: Iteration 73
+2025-11-28T21:42:42.735086Z  INFO burn_train::learner::strategies::single::epoch: Iteration 74
+2025-11-28T21:42:48.890778Z  INFO burn_train::learner::strategies::single::epoch: Iteration 75
+2025-11-28T21:42:55.327872Z  INFO burn_train::learner::strategies::single::epoch: Iteration 76
+2025-11-28T21:43:03.808634Z  INFO burn_train::learner::strategies::single::epoch: Iteration 77
+2025-11-28T21:43:11.213614Z  INFO burn_train::learner::strategies::single::epoch: Iteration 78
+2025-11-28T21:43:17.628283Z  INFO burn_train::learner::strategies::single::epoch: Iteration 79
+2025-11-28T21:43:25.971912Z  INFO burn_train::learner::strategies::single::epoch: Iteration 80
+2025-11-28T21:43:33.524249Z  INFO burn_train::learner::strategies::single::epoch: Iteration 81
+2025-11-28T21:43:41.767423Z  INFO burn_train::learner::strategies::single::epoch: Iteration 82
+2025-11-28T21:43:49.558899Z  INFO burn_train::learner::strategies::single::epoch: Iteration 83
+2025-11-28T21:43:56.358822Z  INFO burn_train::learner::strategies::single::epoch: Iteration 84
+2025-11-28T21:44:04.225580Z  INFO burn_train::learner::strategies::single::epoch: Iteration 85
+2025-11-28T21:44:11.751684Z  INFO burn_train::learner::strategies::single::epoch: Iteration 86
+2025-11-28T21:44:19.502447Z  INFO burn_train::learner::strategies::single::epoch: Iteration 87
+2025-11-28T21:44:29.645929Z  INFO burn_train::learner::strategies::single::epoch: Iteration 88
+2025-11-28T21:44:39.448690Z  INFO burn_train::learner::strategies::single::epoch: Iteration 89
+2025-11-28T21:44:49.020443Z  INFO burn_train::learner::strategies::single::epoch: Iteration 90
+2025-11-28T21:44:57.327890Z  INFO burn_train::learner::strategies::single::epoch: Iteration 91
+2025-11-28T21:45:05.546266Z  INFO burn_train::learner::strategies::single::epoch: Iteration 92
