@@ -285,12 +285,12 @@ Ce projet est distribué sous licence **MIT** - voir le fichier [LICENSE](LICENS
 Si vous utilisez ce code dans un contexte de recherche, merci de citer :
 ```
 @software{malaria_detection_2024,
-  author = {Votre Nom},
+  author = {FOSSOUO WATO MARTIAL},
   title = {Malaria Detection CNN with Burn Framework},
   year = {2024},
   publisher = {GitHub},
   journal = {GitHub repository},
-  howpublished = {\url{https://github.com/username/malaria-detection-cnn}}
+  howpublished = {\url{https://github.com/rustnew/Malaria_model_2}}
 }
 ```
 
