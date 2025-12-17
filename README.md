@@ -3,7 +3,7 @@
 # 🦟 Malaria Detection AI - CNN avec Burn Framework
 
 ## 📋 Table des Matières
-- [🎯 Aperçu du Projet](#-aperçu-du-projet) 
+- [🎯 Aperçu du Projet](#-aperçu-du-projet)  
 - [🚀 Fonctionnalités](#-fonctionnalités)
 - [🛠 Architecture Technique](#-architecture-technique)
 - [📊 Performance et Résultats](#-performance-et-résultats)
